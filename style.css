@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: AvenirNextLTPro, Arial, Roboto, -apple-system, system-ui, Segoe UI, Ubuntu, Cantarell, Noto Sans, sans-serif, Oxygen, Open Sans, Helvetica Neue, Icons16;
+}
+
+.bg-light {
+  background-color: black !important;
+
+}
+
+.logo {
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+}
+
+.company-name {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: aliceblue;
+}
+
+.cus-demo {
+  /* background-color: #565674;
+    color: white;
+   
+    border-radius: 20px;
+    height: 35px;
+    width: 150px;
+	border-color:#565674 ; */
+  background-color: #565674;
+  border: 1px solid #565674;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 8px 12px;
+  height: 40px;
+  /* font-family: "nunitoSans_semibold"; */
+  color: white;
+}
+
+.ope-acc {
+  /* background-color: #ffffff;
+    color: black;
+    border-radius: 20px;
+    height: 35px;
+    width: 150px;
+	border-color:#ffffff; */
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 8px 12px;
+  height: 40px;
+  /* font-family: "nunitoSans_semibold"; */
+  color: black;
+}
+
+.nav-links-tab-on {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+.nav-links-tab {
+  color: #ffffff !important;
+}
+
+/* sidebar */
+
+.vertical-tab {
+
+  box-shadow: inset -62px 0 60px -30px rgb(216 216 233 / 25%) !important;
+
+  height: 100% !important;
+  min-height: 730px !important;
+  min-width: 216px !important;
+  position: sticky !important;
+  top: 0 !important;
+  width: 216px !important;
+  z-index: 2 !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background-color: rgba(216, 216, 233, .2) !important;
+  color: #1f1f30 !important;
+}
+
+.nav-pills .nav-link {
+  line-height: 44px !important;
+  flex-direction: column !important;
+  color: black !important;
+  padding-left: 48px;
+}
+
+/* tab content */
+.money-move {
+  background-color: #7a89ff;
+  border: 1px solid #7a89ff;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 10px 18px;
+  /* font-family: "nunitoSans_semibold"; */
+  color: white;
+}
+
+.sesarch-box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.search-text {
+  border: none;
+  outline: none;
+  width: 500px;
+}
+
+.down-icon {
+  margin-right: 30px;
+}
+
+.welcome-mercury {
+  margin-top: 10px;
+  margin-left: 60px;
+  line-height: 24px;
+  padding: 48px 64px;
+  width: 387px;
+  height: 423px;
+  box-shadow: 0 22px 25px 0 rgb(228 228 234 / 22%), 0 9px 23px 0 rgb(228 228 234 / 50%);
+}
+
+.balance-remaining {
+  text-align: center;
+}
+
+.mercury-balance-content {
+  text-align: center;
+}
+
+.mercury-balance {
+  margin-top: 20px;
+  width: 533px;
+  height: 413px;
+  margin-left: 40px;
+  box-shadow: 0 22px 25px 0 rgb(228 228 234 / 22%), 0 9px 23px 0 rgb(228 228 234 / 50%);
+}
+
+.customer-shares {
+  line-height: 2px;
+}
+
+.view-all-cl {
+  float: right;
+
+}
+
+/* second para */
+
+.monet-out {
+
+  height: 553px;
+  margin-left: 65px;
+  width: 470px;
+  box-shadow: 0 22px 25px 0 rgb(228 228 234 / 22%), 0 9px 23px 0 rgb(228 228 234 / 50%);
+}
+
+.money-in {
+
+  height: 553px;
+  margin-left: 100px;
+  width: 470px;
+  box-shadow: 0 22px 25px 0 rgb(228 228 234 / 22%), 0 9px 23px 0 rgb(228 228 234 / 50%);
+}
+
+/* first section  */
+
+
+
+
+
+/* .col-range-one{
+margin-top: 20px;
+} */
+.col-range-two {
+  margin-top: 30px;
+  padding: 20px;
+  margin-left: 45px;
+}
+
+.cuur-one {
+  margin-top: 40px;
+  font-size: 35px;
+}
+
+.range-slider {
+  margin-top: 20px;
+}
+
+.styles__bar_JFRub {
+  align-items: center;
+  display: flex;
+
+}
+
+.range-para-one {
+  margin-top: 25px;
+}
+
+.range-para-two {
+  margin-top: 25px;
+}
+
+.range-para-two-one {
+  margin-top: 25px;
+}
+
+
+
+@media (max-width: 768px) {
+  .nav-pills .nav-link {
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .d-flex {
+    display: block;
+    /* background-color: blueviolet !important; */
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .side-bar-content {
+    /* display:none !important; */
+    background-color: blueviolet !important;
+  }
+}
+
+/* @media (max-width: 768px){
+    .tab-content-column{
+      display:block !important;
+      background-color: blueviolet !important;
+    }
+  } */
+
+@media (max-width: 768px) {
+  .nav-pills {
+    display: none !important;
+
+
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome-mercury {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    /* width: 1000px; */
+    height: 353px;
+
+
+  }
+}
+
+@media (max-width: 768px) {
+  .mercury-balance {
+    padding: 10px;
+    margin-top: 30px !important;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+
+  }
+}
+
+
+@media (max-width: 768px) {
+  .monet-out {
+    padding: 10px;
+    margin: 10px;
+    width: 320px !important;
+    height: 650px !important;
+
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .money-in {
+    padding: 10px;
+    margin: 10px;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    width: 320px !important;
+    height: 650px !important;
+
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .bar-graph-section {
+    margin: 5px !important;
+    padding: 5px !important;
+
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .col-range-two {
+    margin-left: 0px;
+
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  .sesarch-box {
+    display: none;
+
+  }
+}
